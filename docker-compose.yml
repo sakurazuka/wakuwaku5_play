@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  wakuwaku5_play_web:
+    build: .
+    volumes:
+      - .:/root/work/
